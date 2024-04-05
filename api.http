@@ -1,8 +1,18 @@
 POST http://localhost:3333/events
 Content-Type: application/json
 
- {
-  "title": "Eject Awards",
-  "details": "Premiar todos os membros que contribuiram para algo esse ano",
-  "maximumAttendees": 27
- }
+{
+  "title": "Novo evento",
+  "details": null,
+  "maximumAttendees": 1
+}
+
+###
+
+POST http://localhost:3333/events/015fbfbf-2229-422d-bdcd-80fbcae5d503/attendee
+Content-Type: application/json
+
+{
+  "name": "Fellipe M Dino",
+  "email": "fellipemiguel@email.com"
+}
