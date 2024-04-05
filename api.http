@@ -16,3 +16,7 @@ Content-Type: application/json
   "name": "Fellipe M Dino",
   "email": "fellipemiguel@email.com"
 }
+
+###
+
+GET http://localhost:3333/events/a9a0bbcc-a020-45e8-a376-942c1f61cc93
